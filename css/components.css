@@ -2,3 +2,39 @@ body
 {
 
 }
+
+#page{
+   
+}
+
+#isi-page{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#content-card{
+    width: 80%;
+    height: auto;
+    background-color: blue;
+    
+}
+
+#navbar{
+    width: 100%;
+    height: auto;
+    background-color: blueviolet;
+}
+
+#sidebar{
+    width: 20%;
+    height: auto;
+    background-color: brown;
+}
+
+#footer{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+}
