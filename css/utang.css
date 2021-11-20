@@ -226,10 +226,11 @@ p,a{
 
 #table{
     width: 95%;
-    height: auto;
+    max-height: 80%;
     margin: auto;
     border: solid;
     text-align: center;
+    
     margin-top: 2%;
 }
 
