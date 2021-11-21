@@ -243,16 +243,55 @@ td{
     background-color: white;
     border-bottom: 1px solid black;
     margin: 0px;
-    padding: 0px;
+    padding: 1em;
     padding-top: 2%;
     padding-bottom: 2%;
-    white-space: pre-wrap;
+    
 }
 
 .table-deskripsi{
     max-width: 40%;
     overflow: hidden;
+    text-align: justify;
     
+}
+
+.aksi-col{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.isi-aksi{
+    width: 50%;
+    height: auto;
+}
+
+#button-tambah{
+    width: 20%;
+    height: auto;
+    text-decoration: none;
+    
+}
+
+#button-tambah-img{
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 0.5em;
+}
+
+#button-tambah-container{
+    width: 10%;
+    height: auto;
+    margin-left: 2.5% ;
+    margin-top: 2%;
+    display: flex;
+    color:black;
+    background-color: F9D5A7;
+    padding: 1%;
+    border: solid;
+    border-radius: 5%;
 }
 
 /*************************\Content\***************************/
