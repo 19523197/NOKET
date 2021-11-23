@@ -211,7 +211,12 @@ p,a{
     display: flex;
     margin-right: 5%;
     margin-top: 10%;
-}
+    }
+
+    .selected{
+        background-color: #90AACB;
+        color: white;
+    }
 
 
 /**********************Collapse Sidebar********************/

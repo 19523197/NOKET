@@ -187,11 +187,10 @@ p,a{
         color: white;
         }
 
-    .selected{
-        background-color: FFB085;
-        border: 1px solid black;
-        
-    }
+        .selected{
+            background-color: #90AACB;
+            color: white;
+        }
 
 
     .collapse-item-2 {

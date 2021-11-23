@@ -203,7 +203,12 @@ h1,h2,h3,h4{
     display: flex;
     margin-right: 5%;
     margin-top: 10%;
-}
+    }
+
+    .selected{
+        background-color: #90AACB;
+        color: white;
+    }
 
 
 /**********************Collapse Sidebar********************/
@@ -221,7 +226,7 @@ h1,h2,h3,h4{
 	display: flex;
 	margin-top: 30px;
 	color: #fff;
-	background-color: ;
+	
 }
 
 .hijau{
