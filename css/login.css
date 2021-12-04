@@ -5,517 +5,370 @@ font-family: 'Work Sans', sans-serif;
 */
 
 body,head{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 
 
 }
 
 h1,h2,h3{
-    font-family: 'Work-Sans',sans-serif;
+  font-family: 'Work-Sans',sans-serif;
 }
 
 h4,h5,h6{
-  font-family: 'Raleway', sans-serif;
+font-family: 'Raleway', sans-serif;
 }
 
-p,a{
-  font-family: 'Work Sans', sans-serif;
+p{
+font-family: 'Work Sans', sans-serif;
 }
 
 #page{
-   
+ 
 }
 
 #isi-page{
-    width: 100%;
-    height: auto;
-    display: flex;
-    background-color: FFB085;
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: FFB085;
 }
 
 @media only screen and (min-width: 960px) {
-  /**********************************Navbar***********************************/
+/**********************************Navbar***********************************/
 
-  .navbar{
-    width: 100%;
-    height: 10%;
-  }
-  .navbarLogo{
-  color: black;
-  float: left;
-  text-align: left;
-  margin-top: 20px;
-  margin-left: 30px;
-  }
+.navbar{
+  width: 100%;
+  height: 10%;
+}
+.navbarLogo{
+color: black;
+float: left;
+text-align: left;
+margin-top: 1%;
+margin-left: 30px;
+}
 
-  ol,ul {
-  list-style: none;
-  }
+ol,ul {
+list-style: none;
+}
 
-  .navbarMenu {
-  font-family: "Work Sans";
-  float: right;
-  background-color: #FFF;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  position: relative;
-  }
+.navbarMenu {
+font-family: "Work Sans";
+float: right;
+background-color: #FFF;
+text-align: center;
+justify-content: center;
+display: flex;
+position: relative;
+}
 
-  .navbarMenu li {
-  display:block;
-  width:200px;
-  float:right;
-  margin-left:10px;
-  font-weight: bolder;
-  }
+.navbarMenu li {
+display:block;
+width:200px;
+float:right;
+margin-left:10px;
+font-weight: bolder;
+}
 
-  .navbarMenu a {
-  display:block;
-  padding:5%;
-  text-decoration:none;
-  background-color:#fff;
-  color:black;
-  }
+.navbarMenu a {
+display:block;
+padding:1%;
+text-decoration:none;
+background-color:#fff;
+color:black;
+}
 
-  .navbarMenu a:hover {
-  background-color: #F9D5A7;
-  color: black;
-  }
+.navbarMenu a:hover {
+background-color: #F9D5A7;
+color: black;
+}
 
-  #selected{
-    background-color: #FFB085;
-  }
+#selected{
+  background-color: #FFB085;
+}
 
-  /**********************************Navbar*********************************/
+/**********************************Navbar*********************************/
 
-  /*************************************SideBar*****************************/
+/*************************************SideBar*****************************/
 
-  #sidebar{
-    width: 20%;
-    min-height: 87.5vh;
-    background-color: F9D5A7;
-  }
+#sidebar{
+  width: 20%;
+  min-height: 87.5vh;
+  background-color: F9D5A7;
+}
 
-  .sidebar-item-profile{
-    width: 90%;
-    height: auto;
-    display: flex;
-    margin: auto;
-    text-align: center;
-    padding: 3%;
-    border-bottom: 2px solid black;
-  }
-
-  .sidebar-item-container{
-    width: 100%;
-    height: auto;
-    display: block;
-    text-decoration: none;
-    color: black;
-    border: none;
-  }
-
-  .sidebar-item-container:hover{
-    background-color: #555;
-    color: white;
-  }
-
-  .sidebar-item{
-    width: 70%;
-    height: auto;
-    display: flex;
-    margin: auto;
-    text-align: center;
-    padding: 1%;
-    
-  }
-
-  #sidebar-item-icon{
-    width: 2vw;
-    height: 4vh;
-    display: flex;
-    margin-right: 5%;
-    margin-top: 4%;
-  }
-
-  #sidebar-image-profile{
-    width: 10vh;
-    height: 5vw;
-    margin-right: 15%;
-    border: solid 2px black;
-    border-radius: 10%;
-    background-color: white;
-  }
-
-  #sidebar-image{
-    width: 100%;
-    height: 100%;
-    margin-top: 10%;
-    
-    
-  }
-
-  #sidebar-image-container{
-    width: 30%;
-    height: 20%;
-    display: flex;
-    margin: auto;
-    margin-right: 65%;
-    
-  }
-
-  .sidebar-item-text{
-
-  }
-
-  /**************************************************************SideBar*****************************/
-
-  /*****************Collapse SideBar**************/
-    .collapsible {
-        
-    }
-
-    .active, .collapsible:hover {
-    
-    }
-
-    .collapse-item {
-    height: auto;
-    display: none;
-    
-    color: black;
-    }
-
-    /***#555**/
-
-    .collapse-item-container:hover {
-        background-color: #555;
-        color: white;
-        }
-
-    .collapse-item-2 {
-        width: 50%;
-        height: auto;
-        display: flex;
-        margin: auto;
-        text-align: center;
-        padding: none;
-        }
-
-    .collapse-item-container{
-    width: 100%;
-    height: auto;
-    display: flex;
-    text-decoration: none;
-    color: black;
-    border: none;
-    }
-
-    #collapse-item-icon{
-    width: 2vw;
-    height: 4vh;
-    display: flex;
-    margin-right: 5%;
-    margin-top: 10%;
-  }
-
-
-  /**********************Collapse Sidebar********************/
-
-  #content-card{
-    width: 80%;
-    height: auto;
-    background-color: FEF1E6;
-    
-    
-  }
-
-  #footer{
-    height: auto;
-    width: 100%;
-    line-height: 50px;
-    background: #333;
-    color: #fff;
-    position: absolute;
-    
-    
-  }
-
-
-  #login-kiri{
-  width: 55%;
+.sidebar-item-profile{
+  width: 90%;
   height: auto;
-  margin: auto;
-
   display: flex;
-  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  padding: 3%;
+  border-bottom: 2px solid black;
+}
 
-  }
-
-  #login-kiri-foto{
+.sidebar-item-container{
   width: 100%;
   height: auto;
+  display: block;
+  text-decoration: none;
+  color: black;
+  border: none;
+}
+
+.sidebar-item-container:hover{
+  background-color: #555;
+  color: white;
+}
+
+.sidebar-item{
+  width: 70%;
+  height: auto;
+  display: flex;
   margin: auto;
-  margin-bottom: -10%;
+  text-align: center;
+  padding: 1%;
+  
+}
 
-  }
+#sidebar-item-icon{
+  width: 2vw;
+  height: 4vh;
+  display: flex;
+  margin-right: 5%;
+  margin-top: 4%;
+}
 
-  #login-kiri-img{
+#sidebar-image-profile{
+  width: 10vh;
+  height: 5vw;
+  margin-right: 15%;
+  border: solid 2px black;
+  border-radius: 10%;
+  background-color: white;
+}
+
+#sidebar-image{
   width: 100%;
   height: 100%;
+  margin-top: 10%;
+  
+  
+}
 
-  }
-
-  #login-kiri-slogan{
-  width: 100%;
-  height: auto;
-  margin: auto;
-  color: white;
-  text-align: center;
-  font-size: 3vw;
-  }
-
-  #login-kanan{
+#sidebar-image-container{
   width: 30%;
-  height: auto;
+  height: 20%;
+  display: flex;
+  margin: auto;
+  margin-right: 65%;
+  
+}
 
-  margin-right: 5%;
+.sidebar-item-text{
+
+}
+
+/**************************************************************SideBar*****************************/
+
+/*****************Collapse SideBar**************/
+  .collapsible {
+      
   }
 
-  #form-container{
+  .active, .collapsible:hover {
+  
+  }
+
+  .collapse-item {
+  height: auto;
+  display: none;
+  
+  color: black;
+  }
+
+  /***#555**/
+
+  .collapse-item-container:hover {
+      background-color: #555;
+      color: white;
+      }
+
+  .collapse-item-2 {
+      width: 50%;
+      height: auto;
+      display: flex;
+      margin: auto;
+      text-align: center;
+      padding: none;
+      }
+
+  .collapse-item-container{
   width: 100%;
   height: auto;
   display: flex;
-  flex-direction: column;
+  text-decoration: none;
+  color: black;
+  border: none;
+  }
 
-  border-radius: 2%;
-  margin: auto;
+  #collapse-item-icon{
+  width: 2vw;
+  height: 4vh;
+  display: flex;
+  margin-right: 5%;
   margin-top: 10%;
-  background-color: white;
+}
 
-  }
 
-  #form-container-judul{
-  width: 90%;
-  margin: auto;
-  }
+/**********************Collapse Sidebar********************/
 
-  #form-container-username{
+#content-card{
   width: 80%;
   height: auto;
-  margin: auto;
-  margin-bottom: 5%;
-  margin-top: 15%;
-  }
+  background-color: FEF1E6;
+  
+  
+}
 
-  #form-container-username > input{
-  width: 100%;
-  padding: 5%;
-  border: none;
-  border-bottom: 1px solid grey;
-  }
-
-  #form-container-password{
-  width: 80%;
+#footer{
   height: auto;
-  margin: auto;
-  }
-
-  #form-container-password > input{
   width: 100%;
-  padding: 5%;
-  border: none;
-  border-bottom: 1px solid grey;
-  }
-
-  #form-container-button{
-  width: 40%;
-  height: auto;
-  margin: auto;
-  margin-top: 35%;
-  }
-
-  #form-container-button > input{
-  width: 100%;
-  padding: 6%;
-  margin: auto;
-  border: none;
-  background-color: #90AACB;
-  font-family: 'Raleway', sans-serif;
-  color: white;
-  }
-
-  #form-container-lupa{
-  width: 50%;
-  margin: auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  text-align: center;
-  }
-
+  line-height: 50px;
+  background: #333;
+  color: #fff;
+  position: absolute;
+  
+  
 }
 
 
+#login-kiri{
+width: 55%;
+height: auto;
+margin: auto;
 
-
-
-
-/*
-.Form_Login{
-
-right: 80%;
-top: 20%;
-
-
-
-  float: center;
-  margin-left: auto;
-} 
-
-.box{
-position: absolute;
-width: 492px;
-height: 601px;
-left: 65%;
-top: 212px;
-
-background: #FDFDFD;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 20px;
-
-
-}
-
-
-
-
-.login {
-
-height: 85%;
-margin-top: 0%;
-
-}
-
-h3 {
-  border: 5px
-margin: -50%;
-padding: -50%;
-outline: 0;
-font-family: 'Open Sans', sans-serif;
-
-}
-
-.floatright{
-position: absolute;
-width: 750px;
-height: 550px;
-right: 55%;
-bottom: 20%;
-
-}
-
-.login-help{
-margin-right: center 50%;
-
-
-}
-
-.Selogan{
-
-position: absolute;
-width: 739px;
-height: 56px;
-right: 170%;
-top: 85%;
-
-
-font-size: 48px;
-line-height: 56px;
-}
-
-
-
-.login{
-
-position: absolute;
-width: 180px;
-height: 42px;
-left: 5%;
-top: 5%;
-
-font-family: Work Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 36px;
-line-height: 42px;
 display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.017em;
+flex-direction: column;
 
 }
 
-.Username{
-
-position: absolute;
-
-height: 0px;
-left: 5%;
-bottom: 75%;
-
-font-family: Noto Sans;
-font-style: normal;
-font-weight: 600px;
-font-size: 30px;
-line-height: 41px;
-
-position: absolute;
-width: 450px;
-height: 20px;
+#login-kiri-foto{
+width: 100%;
+height: auto;
+margin: auto;
+margin-bottom: -10%;
 
 }
 
-.login_form{
+#login-kiri-img{
+width: 100%;
+height: 100%;
 
-visibility: visible;
 }
 
-.submit{
-background: #FFB085;
-border-radius: 21px; 
-border: none;
-box-shadow: 0px 1px 8px#FFB085;
-cursor: pointer;
+#login-kiri-slogan{
+width: 100%;
+height: auto;
+margin: auto;
 color: white;
-margin: 0 auto;
-margin-left: 10%;
-margin-top: 110%;
-transition: 0.25s;
+text-align: center;
+font-size: 3vw;
+}
+
+#login-kanan{
 width: 30%;
+height: auto;
 
+margin-right: 5%;
+}
+
+#form-container{
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: column;
+
+border-radius: 2%;
+margin: auto;
+margin-top: 10%;
+background-color: white;
 
 }
 
-.Password{
+#form-container-judul{
+width: 90%;
+margin: auto;
+}
 
-position: absolute;
+#form-container-username{
+width: 80%;
+height: auto;
+margin: auto;
+margin-bottom: 5%;
+margin-top: 15%;
+}
 
-height: 0px;
-left: 5%;
-bottom: 65%;
+#form-container-username > input{
+width: 100%;
+padding: 5%;
+border: none;
+border-bottom: 1px solid grey;
+}
+
+#form-container-password{
+width: 80%;
+height: auto;
+margin: auto;
+margin-bottom: 5%;
+}
+
+#form-container-password > input{
+width: 100%;
+padding: 5%;
+border: none;
+border-bottom: 1px solid grey;
+}
+
+#form-container-button{
+width: 40%;
+height: auto;
+margin: auto;
+margin-top: 20%;
+margin-bottom: 5%;
+}
+
+#form-container-button > input{
+width: 100%;
+padding: 6%;
+margin: auto;
+border: none;
+background-color: #90AACB;
+font-family: 'Raleway', sans-serif;
+color: white;
+}
+
+#form-container-lupa{
+width: 50%;
+margin: auto;
+margin-top: 5%;
+margin-bottom: 5%;
+text-align: center;
+}
 
 }
 
-.login-help{
-position: absolute;
-
-height: 0px;
-left: 65%;
-top: 90%;
-
-
-
-} 
-*/
+#footer{
+      width: 100%;
+      height: auto;
+      background: #333;
+      color: #fff;
+      position: absolute;
+      margin: auto;
+      text-align: center;
+      font-family: Work-Sans;
+     }
+#footer h4{
+    font-weight: lighter;
+}
