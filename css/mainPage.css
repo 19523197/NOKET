@@ -33,7 +33,7 @@ h1,h2,h3,h4{
    color: black;
    float: left;
    text-align: left;
-   margin-top: 20px;
+   margin-top: 1%;
    margin-left: 30px;
  }
  
@@ -61,7 +61,7 @@ h1,h2,h3,h4{
  
  .navbarMenu a {
    display:block;
-   padding:15px;
+   padding:1%;
    text-decoration:none;
    background-color:#fff;
    color:black;
@@ -88,8 +88,9 @@ h1,h2,h3,h4{
     display: flex;
     margin: auto;
     text-align: center;
-    padding: 3%;
-    border-bottom: 2px solid black;
+    padding: 1%;
+    margin-bottom: 1%;
+    border-bottom: px solid black;
 }
 
 .sidebar-item-container{
@@ -216,7 +217,7 @@ h1,h2,h3,h4{
 #content-card{
     width: 80%;
     height: auto;
-    background-color: FEF1E6;
+    background-color: #FEF1E6;
 	font-family: Raleway;
 }
 
@@ -224,14 +225,14 @@ h1,h2,h3,h4{
 	width: 80%;
 	margin: auto;
 	display: flex;
-	margin-top: 30px;
+	margin-top: 2%;
 	color: #fff;
 	
 }
 
 .hijau{
-	width: 400px;
-	padding-top: 20px;
+	width: 35%;
+	padding-top: 3%;
 	height: auto;
 	background-color: #00A85A;
 }
@@ -241,8 +242,8 @@ h1,h2,h3,h4{
 }
 
 .merah{
-	width: 400px;
-	padding-top: 20px;
+	width: 35%;
+	padding-top: 3%;
 	height: auto;
 	background-color: #fa7b6b;
 	margin-left: auto;
@@ -250,8 +251,8 @@ h1,h2,h3,h4{
 
 .merah img{
 	float: right;
-	margin-right: 15px;
-	margin-top: 10px;
+	margin-right: 2%;
+	margin-top: 1%;
 }
 
 .InfoAtas{
@@ -268,18 +269,18 @@ h1,h2,h3,h4{
 }
 
 .hInfo{
-	width: 400px;
-	height: 35px;
+	width: 35%;
+	height: auto;
 	background-color: #05934F;
-	padding-bottom: 15px;
+	padding-bottom: 2%;
 }
 
 .mInfo{
-	width: 400px;
-	height: 35px;
+	width: 35%;
+	height: auto;
 	background-color: #ad5145;
 	margin-left: auto;
-	padding-bottom: 15px;
+	padding-bottom: 2%;
 }
 
 /**********************Batas Atas dan Bawah********************/
@@ -288,13 +289,13 @@ h1,h2,h3,h4{
 	width: 80%;
 	margin: auto;
 	display: flex;
-	margin-top: 30px;
+	margin-top: 2%;
 	color: #fff;
 }
 
 .biru{
-	width: 400px;
-	padding-top: 20px;
+	width: 35%;
+	padding-top: 3%;
 	height: auto;
 	background-color: #0172B7;
 }
@@ -304,8 +305,8 @@ h1,h2,h3,h4{
 }
 
 .oren{
-	width: 400px;
-	padding-top: 20px;
+	width: 35%;
+	padding-top: 3%;
 	height: auto;
 	background-color: #FF861A;
 	margin-left: auto;
@@ -313,8 +314,8 @@ h1,h2,h3,h4{
 
 .oren img{
 	float: right;
-	margin-right: 15px;
-	margin-top: 10px;
+	margin-right: 2%;
+	margin-top: 1%;
 }
 
 .InfoBawah{
@@ -331,40 +332,51 @@ h1,h2,h3,h4{
 }
 
 .bInfo{
-	width: 400px;
-	height: 35px;
+	width: 35%;
+	height: auto;
 	background-color: #0165A4;
-	padding-bottom: 15px;
+	padding-bottom: 2%;
 }
 
 .oInfo{
-	width: 400px;
-	height: 35px;
+	width: 35%;
+	height: auto;
 	background-color: #E37416;
 	margin-left: auto;
-	padding-bottom: 15px;
+	padding-bottom: 2%;
 }
 
-.laporan{
-	width: 80%;
-	margin: auto;
-	margin-top: 75px;
-	background-color: FFB085;
-	color: white;
+.Transaksi h4{
+    margin-left: 10%;
+    font-weight: lighter ;
 }
 
-.table{
-	width: 80%;
-	margin: auto;
-	margin-top: 30px;
-	padding: auto;
-	float: auto;
+/**********************Transaksi Terbaru********************/
 
+.pemasukan{
+    background-color: #FFF;
+    width: 80%;
+    margin: auto;
+    height: auto;
+    margin-bottom: ;
 }
-
-th, td {
-	text-align: center;
-	padding-left: auto;
+.pemasukan h3{
+    color: #929292;
+}
+.pemasukan h6{
+    color: #929292;
+}
+.pengeluaran{
+    background-color: #FFF;
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+.pengeluaran h3{
+    color: #929292;
+}
+.pengeluaran h6{
+    color: #929292;
 }
 
 #footer{
@@ -374,5 +386,9 @@ th, td {
       color: #fff;
       position: absolute;
       margin: auto;
+      text-align: center;
 	  font-family: Work-Sans;
      }
+#footer h4{
+    font-weight: lighter;
+}
