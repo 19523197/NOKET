@@ -131,7 +131,7 @@ img{
 .nav__close, .nav__link, .nav__logo, .nav__toggle{
   color: var(--white-color);
   color: black;
-  font-weight: bold;
+  font-weight: lighter;
 }
 
 .nav__link:hover{
