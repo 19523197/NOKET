@@ -13,14 +13,6 @@ h1,h2,h3,h4{
     font-family: 'Work-Sans',sans-serif;
 }
 
-h5,h6{
-    font-family: 'Raleway', sans-serif;
-}
-
-p,a{
-    font-family: 'Work Sans', sans-serif;
-}
-
 #page{
    
 }
@@ -36,13 +28,12 @@ p,a{
 
 .navbar{
     width: 100%;
-    height: auto;
  }
  .navbarLogo{
    color: black;
    float: left;
    text-align: left;
-   margin-top: 1%;
+   margin-top: 20px;
    margin-left: 30px;
  }
  
@@ -70,7 +61,7 @@ p,a{
  
  .navbarMenu a {
    display:block;
-   padding:1%;
+   padding:15px;
    text-decoration:none;
    background-color:#fff;
    color:black;
@@ -222,221 +213,72 @@ p,a{
 
 /**********************Collapse Sidebar********************/
 
-/************************Content****************************/
 #content-card{
     width: 80%;
     height: auto;
     background-color: FEF1E6;
     
-}
-
-#info-header
-{
-    width: 95%;
-    height: auto;
-    margin: auto;
-    margin-top: 3%;
-    border: black solid 1px;
-    border-radius: 1vw;
-    display: flex;
-    background-color: F9D5A7;
-}
-
-#info-header-kiri
-{
-    width: 50%;
-    height: auto;
-    text-align: center;
-    border-right: white 1px solid;
-}
-
-#info-header-kanan
-{
-    width: 50%;
-    height: auto;
-    text-align: center;
-    border-left: white 1px solid;
-}
-
-#info-header-judul 
-{
-    font-weight: 700;
-}
-
-#table-atas
-{
-    width: 95%;
-    height: auto;
-    display: flex;
-    margin: auto;
-    margin-top: 5%;
-}
-
-#table-atas-pengeluaran
-{
-    width: 15%;
-    height: auto;
-    text-align: center;
-    text-decoration: none;
-    background-color: rgb(250, 173, 73);
-    border:1px black solid;
-}
-
-#table-atas-penjualan
-{
-    width: 15%;
-    height: auto;
-    text-align: center;
-    text-decoration: none;
-    background-color: #F9D5A7;
-    border:1px black solid;
-}
-
-#table-atas-jarak
-{
-    width: 55%;
-}
-
-#table-atas-tambah
-{
-    width: 15%;
-    height: auto;
-    text-align: center;
-    text-decoration: none;
-    background-color: F9D5A7;
-    border:1px black solid;
-}
-
-#table-atas-tambah:hover
-{
-    background-color: #d8a96b;
-}
-
-#table-wrapper
-{
-    width: 95%;
-    ;
-    margin: auto;
-}
-
-#table-scroll
-{
-    overflow:auto;
-    width: 100%;
-    max-height: 60%;
-}
-
-
-
-#myTable
-{
-    width: 100%;
     
-    border: 1px solid black;
 }
 
-#myTable th
+#content-container
 {
-    background-color: A9A9A9;
-    text-align: center;
-    vertical-align: middle;
+    width: 85%;
+    height: auto;
+    margin: auto;
+}
+
+.laporan-container
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.laporan-card
+{
+    width: 100%;
+    height: auto;
+    display: grid;
+    margin-bottom: 3%;
+    grid-template-areas: 
+        'main main main right'
+        'footer footer footer right'
+    ;
+    grid-gap: 1%;
+    border: 1px solid #BEBEBE;
+    background-color: white;
     padding: 1%;
 }
 
-#myTable th p
+.laporan-card-kategori
 {
-    font-weight: 500;
+    grid-area: main;
+    font-weight: bold;
 }
 
-#myTable td
+.laporan-card-jumlah
 {
+    grid-area: right;
     text-align: center;
-    padding: 2%;
-    background-color: white;
-    border-bottom: 1px solid black;
-    border-collapse: collapse;
+    margin: auto;
 }
 
-#myTable td p
+.laporan-card-tanggal
 {
-    font-weight: lighter;
-    font-size: 0.9em;
+    grid-area: footer;
+    color: 929292;
 }
 
-#table-kategori-pengeluaran
+.jumlah-penjualan
+{
+    color: 0172B7;
+}
+
+.jumlah-pengeluaran
 {
     color: FF861A;
 }
-
-#tombol-aksi-edit
-{
-    margin: auto;
-    width: 30%;
-    height: auto;
-    background-color: FF861A;
-    border: 1px solid white;
-}
-
-#tombol-aksi-edit a
-{
-    text-decoration: none;
-    color: black;
-}
-
-#tombol-aksi-hapus
-{
-
-    width: 30%;
-    height: auto;
-    background-color: FF0000;
-    color: white;
-    border: 1px solid white;
-}
-
-#tombol-aksi-hapus a
-{
-    text-decoration: none;
-    color: white;
-}
-
-#tombol-aksi-lunas
-{
-
-    width: 30%;
-    height: auto;
-    background-color: 00A85A;
-    color: white;
-    border: 1px solid white;
-}
-
-#tombol-aksi-lunas a
-{
-    text-decoration: none;
-    color: white;
-}
-
-
-#button-tambah-img{
-    width: 1.5em;
-    height: 1.5em;
-    margin-right: 0.5em;
-}
-
-#button-tambah-container{
-    width: 10%;
-    height: auto;
-    margin-left: 2.5% ;
-    margin-top: 2%;
-    display: flex;
-    color:black;
-    background-color: F9D5A7;
-    padding: 1%;
-    border: solid;
-    border-radius: 5%;
-}
-
-/*************************\Content\***************************/
-
 #footer{
     width: 100%;
       height: 10%;

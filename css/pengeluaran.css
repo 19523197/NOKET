@@ -36,12 +36,13 @@ p,a{
 
 .navbar{
     width: 100%;
+    height: auto;
  }
  .navbarLogo{
    color: black;
    float: left;
    text-align: left;
-   margin-top: 20px;
+   margin-top: 1%;
    margin-left: 30px;
  }
  
@@ -69,7 +70,7 @@ p,a{
  
  .navbarMenu a {
    display:block;
-   padding:15px;
+   padding:1%;
    text-decoration:none;
    background-color:#fff;
    color:black;
@@ -219,8 +220,6 @@ p,a{
     }
 
 
-
-
 /**********************Collapse Sidebar********************/
 
 /************************Content****************************/
@@ -231,56 +230,191 @@ p,a{
     
 }
 
-#table{
+#info-header
+{
     width: 95%;
-    max-height: 80%;
+    height: auto;
     margin: auto;
-    border: solid;
-    text-align: center;
-    
-    margin-top: 2%;
+    margin-top: 3%;
+    border: black solid 1px;
+    border-radius: 1vw;
+    display: flex;
+    background-color: F9D5A7;
 }
 
-th{
-    background-color: FFB085;
+#info-header-kiri
+{
+    width: 50%;
+    height: auto;
+    text-align: center;
+    border-right: white 1px solid;
+}
+
+#info-header-kanan
+{
+    width: 50%;
+    height: auto;
+    text-align: center;
+    border-left: white 1px solid;
+}
+
+#info-header-judul 
+{
+    font-weight: 700;
+}
+
+#table-atas
+{
+    width: 95%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#table-atas-pengeluaran
+{
+    width: 15%;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(250, 173, 73);
+    border:1px black solid;
+}
+
+#table-atas-penjualan
+{
+    width: 15%;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    background-color: #F9D5A7;
+    border:1px black solid;
+}
+
+#table-atas-jarak
+{
+    width: 55%;
+}
+
+#table-atas-tambah
+{
+    width: 15%;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    background-color: F9D5A7;
+    border:1px black solid;
+}
+
+#table-atas-tambah:hover
+{
+    background-color: #d8a96b;
+}
+
+#table-wrapper
+{
+    width: 95%;
+    ;
+    margin: auto;
+}
+
+#table-scroll
+{
+    overflow:auto;
+    width: 100%;
+    max-height: 60%;
+}
+
+
+
+#myTable
+{
+    width: 100%;
+    
+    border: 1px solid black;
+}
+
+#myTable th
+{
+    background-color: A9A9A9;
+    text-align: center;
+    vertical-align: middle;
     padding: 1%;
 }
 
-td{
+#myTable th p
+{
+    font-weight: 500;
+}
+
+#myTable td
+{
+    text-align: center;
+    padding: 2%;
     background-color: white;
     border-bottom: 1px solid black;
-    margin: 0px;
-    padding: 1em;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    
+    border-collapse: collapse;
 }
 
-.table-deskripsi{
-    max-width: 40%;
-    overflow: hidden;
-    text-align: justify;
-    
+#myTable td p
+{
+    font-weight: lighter;
+    font-size: 0.9em;
 }
 
-.aksi-col{
-    width: auto;
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
+#table-kategori-pengeluaran
+{
+    color: DE4B39;
 }
 
-.isi-aksi{
-    width: 50%;
+#tombol-aksi-edit
+{
+    margin: auto;
+    width: 30%;
     height: auto;
+    background-color: FF861A;
+    border: 1px solid white;
 }
 
-#button-tambah{
-    width: 20%;
-    height: auto;
+#tombol-aksi-edit a
+{
     text-decoration: none;
-    
+    color: black;
 }
+
+#tombol-aksi-hapus
+{
+
+    width: 30%;
+    height: auto;
+    background-color: FF0000;
+    color: white;
+    border: 1px solid white;
+}
+
+#tombol-aksi-hapus a
+{
+    text-decoration: none;
+    color: white;
+}
+
+#tombol-aksi-lunas
+{
+
+    width: 30%;
+    height: auto;
+    background-color: 00A85A;
+    color: white;
+    border: 1px solid white;
+}
+
+#tombol-aksi-lunas a
+{
+    text-decoration: none;
+    color: white;
+}
+
 
 #button-tambah-img{
     width: 1.5em;
